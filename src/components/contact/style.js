@@ -6,8 +6,6 @@ export const Container = styled.div`
     display:flex;
     flex-direction: column;
     aligh-items: center;
-    text-align:center;
-    text-decoration:none;
     
     h2{
         margin:20px;
@@ -15,6 +13,10 @@ export const Container = styled.div`
     
     #link{
         margin:20px;
+    }
+
+    p{
+        width:100px.
     }
 
     @media screen and (max-width: 720px) {

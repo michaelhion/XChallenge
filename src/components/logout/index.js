@@ -1,9 +1,12 @@
-
-
+import {Link} from  'react-router-dom'
+import { Container } from './style';
 
 function Home() {
     return (
-      <h2>Logout</h2>
+      <Container>
+      <h2>Logout efetuado com sucesso!</h2>
+      <Link style={{textDecoration: 'none',color:'black',fontWeight:'bold'}} to="/"><p>Clique aqui para retornar ao login</p></Link>
+      </Container>
     );
   }
   

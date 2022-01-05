@@ -4,7 +4,9 @@ import './App.css';
 import Login from './components/login';
 import Home from './components/home';
 import Logout from './components/logout';
-import  {  Routes ,  Route ,  Link  }  from  "react-router-dom" ; 
+import Profile from './components/profile';
+import Contact from './components/contact';
+import  {  Routes ,  Route }  from  "react-router-dom" ; 
 
 
 function App() {
@@ -14,6 +16,8 @@ function App() {
         <Route path="/" element={<Login />} />
         <Route path="/home" element={<Home />}/>
         <Route path="/logout" element={<Logout />}/>
+        <Route path="/profile" element={<Profile />}/>
+        <Route path="/contact" element={<Contact />}/>
         
         <Route
           path="*"

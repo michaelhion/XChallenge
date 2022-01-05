@@ -75,7 +75,9 @@ function Login() {
                                     
                                 }
                             />
-                        <Button style={{ border: '2px solid black', backgroundColor: 'white', borderColor: '#04AA6D', color: 'green' }} variant="outlined" type='submit' variant="outlined" ><Link to="/home">Entrar</Link></Button>
+                        <Link to="/home">
+                            <Button style={{ border: '2px solid black', backgroundColor: 'white', borderColor: '#04AA6D', color: 'green' }} variant="outlined" type='submit' variant="outlined" >Entrar</Button>
+                            </Link>
                     </Box>
                 </form>
             </div>
