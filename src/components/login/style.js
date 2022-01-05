@@ -30,13 +30,5 @@ export const Container = styled.div`
   label{
     
   }
-
-  @media screen and (max-width: 720px) {
-    flex-direction:column;
-    margin-bottom:50px;
-    margin-right:50px;
-    padding-bottom:50px;
-    background-color:#b3c0e3;
-}
   
 `;
