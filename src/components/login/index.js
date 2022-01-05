@@ -6,11 +6,10 @@ import Button from '@mui/material/Button';
 import TextField from '@mui/material/TextField';
 import Box from '@mui/material/Box';
 import IconButton from '@mui/material/IconButton';
-import Input from '@mui/material/Input';
 import Visibility from '@mui/icons-material/Visibility';
 import VisibilityOff from '@mui/icons-material/VisibilityOff';
 import FilledInput from '@mui/material/FilledInput';
-
+import {Link} from 'react-router-dom';
 
 function Login() {
 
@@ -41,7 +40,7 @@ function Login() {
     return (
         <Container>
             <div className='imgContainer'>
-                <img src={logo} />
+                <img src={logo} alt='logo'/>
             </div>
             <div id="divForm">
                 <form onSubmit={handleSubmit(onSubmit)} >
@@ -76,7 +75,7 @@ function Login() {
                                     
                                 }
                             />
-                        <Button style={{ border: '2px solid black', backgroundColor: 'white', borderColor: '#04AA6D', color: 'green' }} variant="outlined" type='submit' variant="outlined" >Entrar</Button>
+                        <Button style={{ border: '2px solid black', backgroundColor: 'white', borderColor: '#04AA6D', color: 'green' }} variant="outlined" type='submit' variant="outlined" ><Link to="/home">Entrar</Link></Button>
                     </Box>
                 </form>
             </div>

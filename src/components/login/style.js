@@ -27,8 +27,15 @@ export const Container = styled.div`
     border-left:2px solid #9ab7db;
   }
   
-  label{
+
+  @media screen and (max-width: 720px) {
     
-  }
+    flex-direction:column;
+    margin-bottom:50px;
+    padding-bottom:50px;
+    background-color:#b3c0e3;
+
+    
+}
   
 `;
